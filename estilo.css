@@ -1,0 +1,98 @@
+body{
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+.nombre{
+  font-size: 50px;
+  color: white;
+}
+
+.name{
+  color: white;
+}
+
+.desc{
+  color:white;
+}
+
+li{
+  list-style: none;
+  margin-right: 25px;
+  color: white;
+}
+
+.menu{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista{
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  font-size:14px;
+  background: #800080;
+  padding: 20px 30px 20px 30px;
+}
+
+.titular{
+  text-align: center;
+  margin-top: 200px;
+}
+
+h1{
+  font-size: 60px;
+  margin: 0;
+}
+
+h2{
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+header{
+  background: url(fondo.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.contenedor{
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+.contenedor-parrafo-boton p{
+  color:black;
+  font-size: 25px;
+}
+
+/*ARRANCA SECCION SOBRE MI*/
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-sobremi{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.contenedor-parrafo-boton{
+  width: 42%;
+}
+
+.contenedor-parrafo-boton a{
+  margin-top: 25px;
+  display: inline-block;
+}
